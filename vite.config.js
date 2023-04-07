@@ -3,6 +3,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Algorithm-Visualizer/',
   plugins: [reactRefresh()],
   build: {
     target: 'es2018'
